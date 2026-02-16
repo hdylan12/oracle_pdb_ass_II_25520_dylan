@@ -51,6 +51,9 @@ ADMIN USER pdbadmin IDENTIFIED BY 5020
 FILE_NAME_CONVERT=('pdbseed','dy_pdb_25520');
 ```
 
+📸 **Screenshot:**  
+[View PDB Creation](screenshots/1_pdb_creation.png)
+
 ## Step 4: Open the PDB
 
 ```sql
@@ -77,6 +80,9 @@ CREATE USER dylan_plsqlauca_25520 IDENTIFIED BY password5020;
 GRANT CONNECT, RESOURCE TO dylan_plsqlauca_25520;
 ```
 
+📸 **Screenshot:**  
+[View User Creation](screenshots/screenshots/1_user_creation.png)
+
 ---
 
 # Task 2: Create and Delete Temporary PDB
@@ -95,6 +101,9 @@ ADMIN USER tempadmin IDENTIFIED BY password5020
 FILE_NAME_CONVERT=('pdbseed','dy_to_delete_pdb_25520');
 ```
 
+📸 **Screenshot:**  
+[View Temporary PDB Created](screenshots/2_temp_pdb_created.png)
+
 ## Step 3: Open and Verify
 
 ```sql
@@ -110,6 +119,9 @@ DROP PLUGGABLE DATABASE dy_to_delete_pdb_25520 INCLUDING DATAFILES;
 SHOW PDBS;
 ```
 
+📸 **Screenshot:**  
+[View Temporary PDB Deleted](screenshots/screenshots/2_temp_pdb_deleted.png)
+
 ---
 
 # Task 3: Oracle Enterprise Manager (OEM)
@@ -122,17 +134,14 @@ Access URL:
 https://localhost:5500/em
 ```
 
-The OEM dashboard displayed:
-
-- Container Database (CDB)  
-- Pluggable Databases (PDBs)  
-- Users inside the PDB  
+📸 **Screenshot:**  
+[View OEM Dashboard](screenshots/screenshots/3_oem_dashboard.png)
 
 ---
 
 # Challenges Faced
 
-- SQL Developer JDK compatibility issue 
+- SQL Developer JDK compatibility issue  
 
 No errors were encountered during PDB creation or deletion.
 
