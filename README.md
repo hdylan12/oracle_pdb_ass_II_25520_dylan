@@ -51,7 +51,7 @@ ADMIN USER pdbadmin IDENTIFIED BY 5020
 FILE_NAME_CONVERT=('pdbseed','dy_pdb_25520');
 ```
 
-📸 **Screenshot:**  
+  **Screenshot:**  
 [View PDB Creation](screenshots/1_pdb_creation.png)
 
 ## Step 4: Open the PDB
@@ -80,8 +80,8 @@ CREATE USER dylan_plsqlauca_25520 IDENTIFIED BY password5020;
 GRANT CONNECT, RESOURCE TO dylan_plsqlauca_25520;
 ```
 
-📸 **Screenshot:**  
-[View User Creation](screenshots/screenshots/1_user_creation.png)
+  **Screenshot:**  
+[View User Creation](screenshots/1_user_creation.png)
 
 ---
 
@@ -101,7 +101,7 @@ ADMIN USER tempadmin IDENTIFIED BY password5020
 FILE_NAME_CONVERT=('pdbseed','dy_to_delete_pdb_25520');
 ```
 
-📸 **Screenshot:**  
+  **Screenshot:**  
 [View Temporary PDB Created](screenshots/2_temp_pdb_created.png)
 
 ## Step 3: Open and Verify
@@ -119,8 +119,8 @@ DROP PLUGGABLE DATABASE dy_to_delete_pdb_25520 INCLUDING DATAFILES;
 SHOW PDBS;
 ```
 
-📸 **Screenshot:**  
-[View Temporary PDB Deleted](screenshots/screenshots/2_temp_pdb_deleted.png)
+  **Screenshot:**  
+[View Temporary PDB Deleted](screenshots/2_temp_pdb_deleted.png)
 
 ---
 
@@ -134,8 +134,8 @@ Access URL:
 https://localhost:5500/em
 ```
 
-📸 **Screenshot:**  
-[View OEM Dashboard](screenshots/screenshots/3_oem_dashboard.png)
+  **Screenshot:**  
+[View OEM Dashboard](screenshots/3_oem_dashboard.png)
 
 ---
 
